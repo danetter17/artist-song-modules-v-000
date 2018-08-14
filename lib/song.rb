@@ -14,7 +14,7 @@ class Song
 
   def initialize
     self.class.all << self
-end
+  end
 
   def artist=(artist)
     @artist = artist
